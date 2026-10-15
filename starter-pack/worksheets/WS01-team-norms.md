@@ -86,7 +86,9 @@
 * Soal 1: Berjalan dengan lancar
 * Soal 2: Adanya miscommunication antar anggota dan cara mengatasinya dengan cara selalu bertukar informasi baru serta bertukar pendapat.
 
-
+3. 2600016001_Lailatul FItriyah
+* SOAL 1:Bagus dan mengesankan
+* SOAL 2:Saya takut terjadinya miskomunikasi & pembagian tugas khawatir terjadi ketidak jelasan terkait ekspektasi kerja atau pembagian beban kerja yang kurang seimbang antaranggota.
 
 ---
 
