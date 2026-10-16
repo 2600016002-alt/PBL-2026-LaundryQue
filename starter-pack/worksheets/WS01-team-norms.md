@@ -86,6 +86,9 @@
 * Soal 1: Berjalan dengan lancar
 * Soal 2: Adanya miscommunication antar anggota dan cara mengatasinya dengan cara selalu bertukar informasi baru serta bertukar pendapat.
 
+3. 2600016043_Arselly Tri Kurniasari
+* Soal 1: Seru dan adil
+* Soal 2: Saya khawatir akan kesulitan membagi waktu antara tugas kuliah saya dan proyek. Saya akan berusaha mengatur waktu dengan baik dan menyelesaikan tugas sesuai tenggat.
 
 
 ---
