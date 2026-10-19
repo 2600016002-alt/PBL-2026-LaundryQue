@@ -86,6 +86,10 @@
     1. 2600016018_Zaskia Azwa M:
 
     Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
+    
+    2. 2600016026_Atiqah Subandono:
+
+    Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakan mana pertanyaan maupun topik yang mengarah ke ranah pribadi, kami harus sangat berhati-hati agar tidak menghancurkan rasa percaya yang sudah dibangun.
 
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 >**JAWABAN**
@@ -94,7 +98,8 @@
 
 Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
 
-
+2. 2600016026_Atiqah Subandono:
+Informasi atau data yang tidak boleh kami akses atau kami tanyakan kepada mitra demi menjaga etika dan privasi adalah hal yang berbau dan condong ke ranah pribadi seperti nomor rekening, ktp, data pelanggan, dsb .
 
 ---
 
