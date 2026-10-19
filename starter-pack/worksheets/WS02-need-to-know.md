@@ -63,7 +63,7 @@
 | 1 | Profil Organisasi | 1. Jenis layanan apa yang tersedia (kiloan, satuan, ekspres, atau antar-jemput)?<br>2. Bagaimana staf membagi tugas harian mereka? | Pemilik / Staf Kasir | Wawancara langsung berizin saat jam tenang mitra. |
 | 2 | Proses Bisnis | 1. Bagaimana proses penandaan pakaian yang luntur atau rusak dan pengecekan kondisi awal pakaian pelanggan saat diterima?<br>2. Berapa lama durasi pengerjaan untuk satu pelanggan? | Observasi Lapangan | Mengamati dan mencatat durasi transaksi dengan izin lisan. |
 | 3 | Data & Pencatatan | Bagaimana cara UMKM ini merekap pembayaran, seperti uang tunai, QRIS, atau piutang/kasbon pelanggan? | Kasir / Buku Nota | Melihat contoh dokumen transaksi tanpa mencatat data pribadi sensitif. |
-| 4 | Masalah & Constraints | 1. Apa hambatan operasional yang paling sering terjadi?<br>2. Misalnya, pakaian tertukar atau hilang, keterlambatan estimasi pesanan, kehilangan nota manual, atau mati listrik atau air? | Pemilik Usaha | Wawancara terarah menggunakan instrumen WS03. |
+| 4 | Masalah & Constraints |Apa hambatan operasional yang paling sering terjadi? Misalnya, pakaian tertukar atau hilang, keterlambatan estimasi pesanan, kehilangan nota manual, atau mati listrik atau air? | Pemilik Usaha | Wawancara terarah menggunakan instrumen WS03. |
 | 5 | Infrastruktur Fisik | Bagaimana kualitas sinyal internet, serta perangkat keras apa yang dimiliki, seperti jumlah mesin cuci/pengering, tablet/smartphone, dan printer thermal untuk mencetak resi? | Lokasi Usaha | Observasi fisik keberadaan smartphone/tablet/Wi-Fi/4G. |
 | 6 | Target Solusi | Apakah pemilik usaha ingin mahasiswa sistem informasi untuk membantu melacak pendapatan, mencetak label barcode, mengirimkan notifikasi otomatis melalui WhatsApp, atau hal lainnya yang masih berkaitan dengan teknologi? | Pemilik Usaha | Wawancara diskusi ekspektasi dan batas kelayakan teknis. |
 
@@ -86,10 +86,6 @@
     1. 2600016018_Zaskia Azwa M:
 
     Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
-    
-    2. 2600016026_Atiqah Subandono:
-
-    Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakaan mana data yang dapat diambil dan data sensitif yang tidak boleh kita ambil.
 
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 >**JAWABAN**
@@ -97,10 +93,6 @@
 1. 2600016018_Zaskia Azwa Mutmainah:
 
 Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
-
-2. 2600016026_Atiqah Subandono:
-
-Informasi yang tidak boleh kami ketahui adalah nomor bank pelanggan, data pribadi pelanggan dan yang berhubungan dengan hasil rekap transaksi.
 
 ---
 
