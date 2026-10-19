@@ -94,6 +94,8 @@
 
 Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
 
+
+
 ---
 
 ## ✅ Checklist Kelulusan WS02
