@@ -45,11 +45,10 @@
 - Pengubahan cara pengiriman struk order dari manual menggunakan chat pribadi WhatsApp menjadi sistem otomatisasi pengiriman struk digital.
 - Menyediakan alur penginputan data pelanggan yang nyata, jelas, dan bersifat wajib bagi seluruh karyawan untuk mencegah ketidaksesuaian rekap tunai/saldo (tombok).
 - Memperjelas alur penggunaan link member digunakan untuk apa, serta menyediakan modul yang efektif dan efisien guna merestock suatu barang.
-- Jika Wi-Fi bermasalah dan menggunakan data seluler juga bermasalah, harus ada dokumen pengganti (nota/buku catatan) untuk mengantisipasi saat jaringan pada device yang digunakan bermasalah.
 
 **Membangun Prototipe Sederhana yang Benar-Benar Membantu:**
 - Tampilan kasir yang ringan (lightweight) khusus untuk pencatatan nama pelanggan dan jenis layanan supaya lebih cepat dan memangkas waktu loading yang lama.
-- Adakan fitur “chat otomatis” pada aplikasi SpinTrack untuk mengirimkan verifikasi member dan struk belanjaan yang langsung terkirim otomatis ke nomor WhatsApp pelanggan.
+- Adakan fitur “chat otomatis” pada aplikasi SpinTrack untuk mengirimkan struk belanjaan yang langsung terkirim otomatis ke nomor WhatsApp pelanggan.
 - Layar rekap harian yang mencocokkan saldo dengan uang tunai masuk secara real-time untuk mengurangi kesalahan perhitungan dan memiliki tombol pemicu trigger untuk meminta admin untuk restock bahan baku.
 
 ### 2. Apa yang Sudah Kami Ketahui (What We Know)
@@ -89,7 +88,11 @@
     Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
 
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
-> Margin keuntungan rahasia, kata sandi akun bank, atau data pribadi dan keuangan pelanggan.
+>**JAWABAN**
+
+1. 2600016018_Zaskia Azwa Mutmainah:
+
+Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
 
 ---
 
