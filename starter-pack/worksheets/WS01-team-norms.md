@@ -87,6 +87,9 @@
 * Soal 2: Adanya miscommunication antar anggota dan cara mengatasinya dengan cara selalu bertukar informasi baru serta bertukar pendapat.
 
 
+4. 2600016001_Lailatul Fitriyah:
+* Soal 1: seru dan berjalan seperti semestinya
+* Soal 2: saya khawatir akan terjadinya miskomunikasi antar anggota kelompok. saya akan berusaha selalu mengkomunikasikan sebelum memulai project.
 
 ---
 
