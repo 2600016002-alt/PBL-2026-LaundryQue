@@ -90,6 +90,9 @@
 * Soal 1: Seru dan adil
 * Soal 2: Saya khawatir akan kesulitan membagi waktu antara tugas kuliah saya dan proyek. Saya akan berusaha mengatur waktu dengan baik dan menyelesaikan tugas sesuai tenggat.
 
+4. 2600016001_Lailatul Fitriyah:
+* Soal 1: seru dan berjalan seperti semestinya
+* Soal 2: saya khawatir akan terjadinya miskomunikasi antar anggota kelompok. saya akan berusaha selalu mengkomunikasikan sebelum memulai project.
 
 ---
 
