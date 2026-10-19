@@ -126,6 +126,10 @@ Login ke akun kasir, karena itu perlu data pribadi karyawan yang menjaga pada sh
 
 Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk investigasi proses bisnis.
 
+5. 2600016001_Lailatul Fitriyah:
+
+Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
+
 ---
 
 ## ✅ Checklist Kelulusan WS02
