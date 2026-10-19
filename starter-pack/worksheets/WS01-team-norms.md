@@ -91,6 +91,11 @@
 * Soal 1: seru dan berjalan seperti semestinya
 * Soal 2: saya khawatir akan terjadinya miskomunikasi antar anggota kelompok. saya akan berusaha selalu mengkomunikasikan sebelum memulai project.
 
+
+5. 2600016026_Atiqah Subandono:
+* Soal 1: menantang dan menyenangkan
+* Soal 2: saya khawatir akan terjadinya ketidak fahaman materi yang disampaikan. saya akan berusaha selalu menjelskan materi yang saya fahami kepaa anggota lain.
+
 ---
 
 ## Checklist Kelulusan WS01
