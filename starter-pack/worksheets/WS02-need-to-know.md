@@ -91,6 +91,10 @@
 
     "Jika dibangunkan alat bantu sistem informasi sederhana, kemampuan utama apa yang paling Bapak/Ibu harapkan?" karena takut pihak laundry menaruh harapan besar terhadap projek kami.
 
+    3. 2600016043_Arselly Tri Kurniasari
+
+    Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
+
 
 
 
@@ -106,7 +110,9 @@ Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribad
 
 Login ke akun kasir, karena itu perlu data pribadi karyawan yang menjaga pada shift tersebut dan tidak boleh kami ketahui.
 
+3. 2600016043_Arselly Tri Kurniasari
 
+Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk investigasi proses bisnis.
 
 ---
 
