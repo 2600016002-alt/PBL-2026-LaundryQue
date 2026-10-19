@@ -103,6 +103,10 @@
 
 
 
+    . 2600016001_Lailatul Fitriyah:
+
+        Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
+
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 >**JAWABAN**
 
