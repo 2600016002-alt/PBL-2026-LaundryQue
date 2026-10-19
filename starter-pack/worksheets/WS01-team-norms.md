@@ -79,11 +79,16 @@
 **JAWABAN**:
 
 1. 2600016018_Zaskia Azwa Mutmainah:
-* SOAL 1:  sangat bagus sangat mantap
-* SOAL 2: yang saya khawatirkan adalah terjadinya jadwal pribadi masing masing anggota bertabrakan saat menjalankan project. cara mengatasinya adalah membuat jadwal tetap khusus project ini.
+* SOAL 1:  Sangat bagus sangat mantap
+* SOAL 2: Yang saya khawatirkan adalah terjadinya jadwal pribadi masing masing anggota bertabrakan saat menjalankan project. Cara mengatasinya adalah membuat jadwal tetap khusus project ini.
 
-2. 
+2. 2600016002_Davina Walasyah:
+* Soal 1: Berjalan dengan lancar
+* Soal 2: Adanya miscommunication antar anggota dan cara mengatasinya dengan cara selalu bertukar informasi baru serta bertukar pendapat.
 
+3. 2600016043_Arselly Tri Kurniasari
+* Soal 1: Seru dan adil
+* Soal 2: Saya khawatir akan kesulitan membagi waktu antara tugas kuliah saya dan proyek. Saya akan berusaha mengatur waktu dengan baik dan menyelesaikan tugas sesuai tenggat.
 
 
 ---
