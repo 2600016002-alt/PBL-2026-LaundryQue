@@ -99,11 +99,7 @@
 
     Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
 
-
-
-
-
-    . 2600016001_Lailatul Fitriyah:
+    5 . 2600016001_Lailatul Fitriyah:
 
         Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
 
