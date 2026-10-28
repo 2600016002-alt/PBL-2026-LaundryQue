@@ -65,11 +65,10 @@
 ---
 
 #### Visualisasi Prototipe
-1. **Pengiriman Nota:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
+1. **Pengiriman Nota:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/Nota.png)
 2. **Performa SpinTrack:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/14cb63f1f9aad4021a43e1673856a1eccaf7b282/starter-pack/assets/Gemini_Generated_Image_s9rggfs9rggfs9rg.jpg)
-3. **Pemadaman Listrik:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
-4. **Rekapitulasi Harian:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
-5. **Pengelolaan Antrean:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
+3. **Rekapitulasi Harian:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
+4. **Pengelolaan Antrean:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
 
 ---
 
