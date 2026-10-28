@@ -66,7 +66,7 @@
 
 #### Visualisasi Prototipe
 1. **Pengiriman Nota:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
-2. **Performa SpinTrack:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
+2. **Performa SpinTrack:** [image](starter-pack/assets/Gemini_Generated_Image_s9rggfs9rggfs9rg.jpg)
 3. **Pemadaman Listrik:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
 4. **Rekapitulasi Harian:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
 5. **Pengelolaan Antrean:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
