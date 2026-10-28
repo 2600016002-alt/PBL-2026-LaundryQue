@@ -59,21 +59,18 @@
 
 ### A. Pemetaan Alur Transaksi As-Is (Kronologis Kronik)
 
-* **Langkah 1 (Input Pesanan):** Kasir mengisi nomor telepon pelanggan ke aplikasi SpinTrack yang telah disediakan.
-* **Langkah 2 (Kalkulasi & Pembayaran):** Aplikasi SpinTrack digunakan sebagai alat untuk merekap nama pelanggan dan jenis layanan. Pembayaran dilakukan via QRIS dan tunai.
-* **Langkah 3 (Penyerahan Barang):** Customer memasukkan baju kotor ke dalam tabung sendiri tanpa adanya penimbangan dan pencatatan setelah melakukan pembayaran di kasir, serta tidak ada pemisahan baju yang gampang luntur (*self service*).
-* **Langkah 4 (Pencatatan Stok & Rekap):**
-  * **Alur pengisian stok barang:** Stok tidak dicatat melalui buku atau aplikasi tracking, melainkan hanya dilakukan melalui pesan pribadi (kasir menyebutkan daftar stok barang yang sudah habis kepada admin).
-  * **Rekapitulasi harian:** SpinTrack digunakan untuk merekap jenis layanan dan total dana pemasukan pada *shift-shift* tiap karyawan. Rekapitulasi dilakukan hanya pada karyawan shift akhir (shift 3).
-  * **Cara kerja SpinTrack untuk merekap dana harian:** Prosesnya dilakukan di aplikasi Spintrack (masuk menu Setting → klik Akhiri Shift → laporan PDF rekapitulasi harian otomatis masuk ke WhatsApp admin).
+* **Langkah 1 (Input Pesanan):** Pelanggan datang ke Laundry Que, ke meja kasir, karyawan menanyakan nama pelanggan, nomor telepon, dan jenis layanan (cuci Rp10.000 dan kering Rp10.000), lalu input datanya ke aplikasi SpinTrack. Terkadang SpinTrack mengalami loading sekitar 1-2 menit.
+* **Langkah 2 (Kalkulasi & Pembayaran):** SpinTrack menampilkan total pembayaran setelah karyawan menginput data pesanan. Pelanggan dapat memilih untuk membayar dengan QRIS atau tunai. Pembayaran QRIS otomatis masuk ke Livin' Merchant admin laundry que dan dicatat pada SpinTrack. Sebaliknya, pembayaran tunai dimasukkan ke laci kasir dan dicatat pada SpinTrack. Pelanggan akan menerima pesan otomatis melalui WhatsApp dengan link member setelah transaksi. Namun, nota transaksi hanya dikirim jika pelanggan memintanya, dan tidak dikirim secara otomatis melainkan karyawan masih secara manual mengirimkan nota melalui pesan pribadi WhatsApp. 
+* **Langkah 3 (Penyerahan Barang):** Setelah membayar, pelanggan pergi ke area mesin cuci dan memasukkan pakaian sendiri ke dalam tabung. Mereka tidak menimbang atau mencatat jumlah pakaian. Setiap tabung memiliki kapasitas 8-9 kg untuk satu pelanggan. Karyawan mengatur tabung pencucian dengan SpinTrack selama 20-25 menit, tergantung banyaknya pakaian. Pelanggan memindahkan pakaian ke tabung pengering di atas mesin cuci setelah selesai. Pengering berputar selama 40 menit tanpa diatur lagi. Pakaian dapat diambil dan dilipat menggunakan keranjang yang disediakan atau langsung dibawa pulang ke tas laundry pribadi setelah selesai. Jika seluruh tabung terisi: Pelanggan dapat meninggalkan pakaiannya atau menunggu di ruang tunggu sampai salah satu tabung berhenti. Ketika tabung tersedia, karyawan akan menghubungi pelanggan melalui telepon dengan durasi yang dibutuhkan untuk menghubungi pelanggan kurang lebih sekitar 5-10 menit. Jika pelanggan tidak menjawab panggilan telepon setelah beberapa kali dihubungi, pelanggan lain yang sedang menunggu di Laundry Que dapat menggunakan tabung yang kosong. Karyawan tidak bertanggung jawab atas kerusakan, kehilangan, atau tertukarnya pakaian yang ditinggalkan. 
+* **Langkah 4 (Pencatatan Stok & Rekapitulasi):** Tidak seperti buku atau aplikasi pencatatan stok, pencatatan gas, detergen, dan air mineral masih dilakukan melalui pesan WhatsApp dari kasir kepada admin. Sementara itu, SpinTrack merekap jenis layanan dan total pemasukan berdasarkan shift karyawan. Untuk mencegah perbedaan, kasino juga harus mencocokkan data SpinTrack dengan uang yang diterima. **Cara kerja SpinTrack untuk merekap dana harian:** Prosesnya dilakukan di aplikasi Spintrack (masuk menu Setting → klik Akhiri Shift → laporan PDF rekapitulasi harian otomatis masuk ke WhatsApp admin).
 ### B. Tabel Pengumpulan Data Kuantitatif Sederhana (Evidence)
 
 | Indikator Pengukuran | Angka Baseline Hasil Observasi | Satuan / Keterangan |
 | :--- | :--- | :--- |
-| **Rata-rata Waktu Transaksi per Pelanggan** | 1-2 menit | Diukur menggunakan stopwatch untuk 3–5 sampel transaksi. |
-| **Durasi Rekapitulasi Penjualan Harian** | 20 menit | Waktu yang dibutuhkan pemilik setiap malam untuk rekap nota. |
-| **Frekuensi Kesalahan Pencatatan / Selisih** | rekapitulasi dilakukan setiap hari, jadi tidak terdeteksi kapan rekapitulasi tidak balance antara nota dengan SpinTrack | Kejadian selisih nota fisik dengan fisik uang tunai. |
-| **Jumlah Pelanggan pada Jam Sibuk** | 8-10 pelanggan | Beban transaksi puncak pada jam sibuk. |
+| **Rata-rata Waktu Transaksi per Pelanggan** | 30-60 detik / pelanggan | Diukur menggunakan stopwatch untuk 3–5 sampel transaksi. |
+| **Durasi Rekapitulasi Penjualan Harian** | 20 menit / akhir shift | Waktu yang dibutuhkan pemilik setiap malam untuk rekap nota. |
+| **Frekuensi Kesalahan Pencatatan / Selisih** | 1-2 kali / bulan |
+| **Jumlah Pelanggan pada Jam Sibuk** | 40 orang / jam sibuk | Beban transaksi puncak pada jam sibuk. |
 
 ---
 
@@ -82,14 +79,15 @@
 ### A. Pertanyaan Refleksi Tim
 
 1. **Apakah selama observasi lapangan ditemukan hal tak terduga yang belum tercakup dalam 10 pertanyaan wawancara awal?**
-   * **Jawab:** Data setiap pelanggan yang dilaporkan oleh kasir ke atasan ternyata bisa menjadi komisi bagi kasir tersebut.
+   * **Jawab:** Data setiap pelanggan yang dilaporkan oleh kasir ke atasan, bisa menjadi komisi bagi kasir tersebut. Jadi, pada saat pelanggan datang, tidak semua karyawan menginput data pelanggan (nama dan nomor telepon) ke dalam SpinTrack. Ada karyawan yang  menginput nama dan nomor telepon pelanggan ke SpinTrack, ada juga karyawan yang hanya menanyakan nama pelangannya saja lalu dimasukkan ke SpinTrack tanpa menanyakan nomor telepon pelanggan yang berguna untuk mengirimkan link member dan nota transasksi. Hal ini tergaantung pada kinerja tiap karyawan (berbedaa-beda).
 
 2. **Bagaimana tim memastikan bahwa seluruh data transaksi dan profil mitra yang dikumpulkan tetap terjaga kerahasiaannya?**
    * **Jawab:** 
-     1. Meminta izin kepada staf untuk melihat, mengetahui, mencatat, merekam suara, dan mendokumentasikan semua informasi secara sukarela (tanpa paksaan).
-     2. Jika diberi izin untuk mendokumentasikan kegiatan, kami tidak memperlihatkan wajah narasumber atau orang lain yang berada di dalam dokumentasi tersebut.
-     3. Semua informasi yang bersifat pribadi dan rahasia hanya diketahui oleh kelompok kami; kami tidak akan menyebarluaskannya kepada siapapun dan hanya menggunakannya sebagai data proyek.
-
+   1. Meminta izin kepada karyawan untuk melihat, mengetahui, mencatat, merekam suara, dan mendokumentasikan semua informasi yang staff berikan dan tidak didasari paksaan.
+   2. Jika diberi izin untuk mendokumentasikan kegiatan, kami tidak memperlihatkan wajah narasumber atau orang lain yang berada di dalam dokumentasi tersebut.
+   3. Semua informasi yang bersifat pribadi dan hanya boleh diketahui oleh kelompok kami, kami tidak akan menyebarluaskan kepada siapapun dan hanya kami gunakan sebagai data untuk projek yang kami kerjakan.
+   4. Tidak meminta data  penmghasilan dari laundry que, gaji karyawan, alamat karyawan, proses pengembangan bisnis laundry (untung/rugi), dan hal-hal lainnya yang bersifat pribadi.
+   
 ---
 
 ### B. Tanda Tangan Komitmen Tim & Pengesahan

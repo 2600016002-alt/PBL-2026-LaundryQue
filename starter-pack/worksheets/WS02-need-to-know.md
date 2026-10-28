@@ -58,7 +58,7 @@
 | :--- | :--- | :--- | :--- |
 | **Pengiriman Nota** | Fitur nota digital yang bisa dikirim melalui WhatsApp | Nama pelanggan, nomor telepon, jenis layanan, total pembayaran, dan tombol pengiriman nota otomatis ke WhatsApp pelanggan. | Pelanggan dapat menerima nota setelah transaksi dilakukan tanpa harus meminta nota terlebih dahulu kepada kasir. |
 | **Performa SpinTrack** | Tampilan menu order yang lebih sederhana dan mudah diakses | Menu order, data pelanggan, jenis layanan, total yang harus dibayarkan, dan riwayat order. | Membantu mempersingkat waktu karyawan menginput data pelanggan serta mempersingkat waktu tunggu pelanggan. |
-| **Pemadaman Listrik** | Formulir pencatatan pesanan manual untuk digunakan sementara | Nama pelanggan, nomor WhatsApp pelanggan, jenis layanan laundry, total biaya, nama karyawan penerima, status pemindahan data ke SpinTrack (sudah/belum). | Mencegah kesalahan input data saat SpinTrack tidak bisa digunakan akibat mati listrik (sebagai *backup*). |
+| **Pemadaman Listrik** | Formulir pencatatan pesanan manual untuk digunakan sementara | Nama pelanggan, nomor WhatsApp pelanggan, jenis layanan laundry, total biaya, nama karyawan penerima, status pemindahan data ke SpinTrack (sudah/belum). | Mencegah kesalahan input data saat SpinTrack tidak bisa digunakan akibat mati listrik (sebagai *backup* dari SpinTrack). |
 | **Rekapitulasi Harian** | Tabel pencatatan stok perlengkapan dan pemasukan harian | **1. Tabel Rekapitulasi Harian:** Pemasukan dana SpinTrack, uang kasir, selisih.<br>**2. Tabel Perlengkapan:** Nama barang (detergen, gas, air mineral), kondisi stok, keterangan restock. | Memudahkan pemantauan barang, menghindari selisih data pemasukan, dan mempermudah admin memantau *restock*. |
 | **Pengelolaan Antrean** | Sistem antrean dengan fitur pemberitahuan kepada pelanggan | Nama pelanggan, nomor WhatsApp, daftar antrean, status antrean, nomor tabung terisi, tombol notifikasi giliran. | Mempermudah kasir menghubungi pelanggan berikutnya sehingga pekerjaan operasional lain dapat dikerjakan lebih cepat. |
 
@@ -67,8 +67,9 @@
 #### Visualisasi Prototipe
 1. **Pengiriman Nota:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/Nota.png)
 2. **Performa SpinTrack:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/14cb63f1f9aad4021a43e1673856a1eccaf7b282/starter-pack/assets/Gemini_Generated_Image_s9rggfs9rggfs9rg.jpg)
-3. **Rekapitulasi Harian:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
-4. **Pengelolaan Antrean:** `[ Sisipkan Draf / Wireframe Prototipe di sini ]`
+3. **Rekapitulasi Harian:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/Rekapitulasi%20Harian.jpg)
+4. **Pengelolaan Antrean:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/Flow%20Antrean.jpg)
+5. **Formulir:** [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/Formulir.jpg)
 
 ---
 
@@ -134,6 +135,7 @@
 
 ## 💭 Refleksi Individu (Reflection)
 
+<<<<<<< HEAD
 **Q: Pertanyaan Need-to-Know mana yang menurut tim paling sulit dijawab dan mengapa?**
 > **JAWABAN**
     
@@ -183,6 +185,22 @@ Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk i
 5. 2600016001_Lailatul Fitriyah:
 
 Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
+=======
+* **Pertanyaan Need-to-Know mana yang menurut tim paling sulit dijawab dan mengapa?**  
+ 1. 2600016018 Zaskia Azwa Mutmainah: Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka. 
+2. 2600016002 Davina Walasyah: “Berapa lama waktu yang bisa kamu janjikan kepada saya untuk projek ini?”. Alasannya  karena walaupun kami  sudah memberikan batasan sistem seringkali mitra masih meragukan tim.
+3. 2600016043 Arselly Tri Kurniasari: Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk. 
+2600016001 Lailatul Fitriyah: Pertanyaan bagian target solusi karena karyawan mitra takut jika kita membuat perubahan pada sistem yang telah diberikan oleh atasan.
+4. 2600016026 Atiqah Subandono:
+
+
+* **Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**  
+1. 2600016018 Zaskia Azwa Mutmainah: Kata sandi akun bank/riwayat transaksi Laundry Que.
+2. 2600016002 Davina Walasyah: Data pribadi pelanggan/karyawan.
+3. 2600016043 Arselly Tri Kurniasari: Laporan keuangan internal.
+4. 2600016001 Lailatul Fitriyah: Laporan keuangan.
+5. 2600016026 Atiqah Subandono: Keuntungan dan kerugian Laundry Que.
+>>>>>>> ef889f19f07f6f5b8eac6bd5f53cfe58129ba8a8
 
 ---
 
