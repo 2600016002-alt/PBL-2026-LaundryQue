@@ -1,4 +1,4 @@
-gi# **WS04: Problem Identification & Scope**
+# **WS04: Problem Identification & Scope**
 
 **Mata Kuliah**: Konsep Sistem Informasi (KSI)  
 **Kerangka Kerja**: Project-Based Learning (PBL) Level 1  
