@@ -139,59 +139,40 @@
 **Q: Pertanyaan Need-to-Know mana yang menurut tim paling sulit dijawab dan mengapa?**
 > **JAWABAN**
     
-    1. 2600016018_Zaskia Azwa M:
-
-    Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
+1. 2600016018_Zaskia Azwa M: Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
     
-    2. 2600016026_Atiqah Subandono:
+2. 2600016026_Atiqah Subandono: Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakan mana pertanyaan maupun topik yang mengarah ke ranah pribadi, kami harus sangat berhati-hati agar tidak menghancurkan rasa percaya yang sudah dibangun.
 
-    Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakan mana pertanyaan maupun topik yang mengarah ke ranah pribadi, kami harus sangat berhati-hati agar tidak menghancurkan rasa percaya yang sudah dibangun.
+3. 2600016002_Davina Walasyah: "Jika dibangunkan alat bantu sistem informasi sederhana, kemampuan utama apa yang paling Bapak/Ibu harapkan?" karena takut pihak laundry menaruh harapan besar terhadap projek kami.
 
-    3. 2600016002_Davina Walasyah:
+4. 2600016043_Arselly Tri Kurniasari: Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
 
-    "Jika dibangunkan alat bantu sistem informasi sederhana, kemampuan utama apa yang paling Bapak/Ibu harapkan?" karena takut pihak laundry menaruh harapan besar terhadap projek kami.
-
-    4. 2600016043_Arselly Tri Kurniasari
-
-    Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
-
-
-
-
-
-    . 2600016001_Lailatul Fitriyah:
-
-        Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
+5. 2600016001_Lailatul Fitriyah: Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
 
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 >**JAWABAN**
 
-1. 2600016018_Zaskia Azwa Mutmainah:
+1. 2600016018_Zaskia Azwa Mutmainah: Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
 
-Informasi yang tidak boleh kami ketahui adalah kata sandi akun bank, data pribadi pelanggan dan keuntungan usaha karena itu menyangkut informasi sensitif.
+2. 2600016026_Atiqah Subandono: Informasi atau data yang tidak boleh kami akses atau kami tanyakan kepada mitra demi menjaga etika dan privasi adalah hal yang berbau dan condong ke ranah pribadi seperti nomor rekening, ktp, data pelanggan, dsb.
 
-2. 2600016026_Atiqah Subandono:
+3. 2600016002_Davina Walasyah: Login ke akun kasir, karena itu perlu data pribadi karyawan yang menjaga pada shift tersebut dan tidak boleh kami ketahui.
 
-Informasi atau data yang tidak boleh kami akses atau kami tanyakan kepada mitra demi menjaga etika dan privasi adalah hal yang berbau dan condong ke ranah pribadi seperti nomor rekening, ktp, data pelanggan, dsb.
+4. 2600016043_Arselly Tri Kurniasari: Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk investigasi proses bisnis.
 
-3. 2600016002_Davina Walasyah:
-
-Login ke akun kasir, karena itu perlu data pribadi karyawan yang menjaga pada shift tersebut dan tidak boleh kami ketahui.
-
-4. 2600016043_Arselly Tri Kurniasari
-
-Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk investigasi proses bisnis.
-
-5. 2600016001_Lailatul Fitriyah:
-
-Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
+5. 2600016001_Lailatul Fitriyah: Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
 =======
 * **Pertanyaan Need-to-Know mana yang menurut tim paling sulit dijawab dan mengapa?**  
- 1. 2600016018 Zaskia Azwa Mutmainah: Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka. 
+1. 2600016018 Zaskia Azwa Mutmainah: Pertanyaan kategori Target Solusi, karena kami belum bertemu pemilik usaha sehingga belum mengetahui solusi apa yang dibutuhkan bisnis usahanya, dari sisi karyawan pun masih bingung karena mereka merasa tidak memiliki hambatan dalam pekerjaan mereka.
+
 2. 2600016002 Davina Walasyah: “Berapa lama waktu yang bisa kamu janjikan kepada saya untuk projek ini?”. Alasannya  karena walaupun kami  sudah memberikan batasan sistem seringkali mitra masih meragukan tim.
+
 3. 2600016043 Arselly Tri Kurniasari: Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk. 
-2600016001 Lailatul Fitriyah: Pertanyaan bagian target solusi karena karyawan mitra takut jika kita membuat perubahan pada sistem yang telah diberikan oleh atasan.
-4. 2600016026 Atiqah Subandono:
+
+4. 2600016026 Atiqah Subandono:  Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakan mana pertanyaan maupun topik yang mengarah ke ranah pribadi, kami harus sangat berhati-hati agar tidak menghancurkan rasa percaya yang sudah dibangun.
+
+5. 2600016001_Lailatul Fitriyah: Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
+
 
 
 * **Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**  
