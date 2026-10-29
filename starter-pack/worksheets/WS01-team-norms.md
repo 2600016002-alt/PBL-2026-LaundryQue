@@ -112,11 +112,11 @@
 
 | No | Nama Mahasiswa | NIM | Peran / Rotasi Utama | Tanda Tangan / Persetujuan |
 | :-: | :--- | :--- | :--- | :--- |
-| 1 | Zaskia Azwa M | 2600016018 | Phase Lead 1 (Discover) | |
-| 2 | Davina Walasyah | 2600016002 | Phase Lead 2 (Frame) & Phase Lead 8 (Reflect) | |
-| 3 | Atiqah Subandono | 2600016026 | Phase Lead 3 (Define) & Phase Lead 6 (Test) | |
-| 4 | Lailatul Fitriyah | 2600016001 | Phase Lead 4 (Design) & Phase Lead 7 (Communicate) | |
-| 5 | Arselly Tri K | 2600016043 | Phase Lead 5 (Build) | |
+| 1 | Zaskia Azwa M | 2600016018 | Phase Lead 1 (Discover) |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20zaskia.png)|
+| 2 | Davina Walasyah | 2600016002 | Phase Lead 2 (Frame) & Phase Lead 8 (Reflect) |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20davina.png) |
+| 3 | Atiqah Subandono | 2600016026 | Phase Lead 3 (Define) & Phase Lead 6 (Test) |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20atiqah.png) |
+| 4 | Lailatul Fitriyah | 2600016001 | Phase Lead 4 (Design) & Phase Lead 7 (Communicate) |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20laila.png) |
+| 5 | Arselly Tri K | 2600016043 | Phase Lead 5 (Build) |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20arselly.png) |
 
 <br>
 
