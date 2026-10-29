@@ -107,7 +107,7 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 `Disusun oleh Phase Lead 2 (Frame): [ Davina Walasyah — 2600016002 ]`  
 `Tanggal Penyusunan: [ 25/10/2026 ]`
 
-`Tanda Tangan Phase Lead 2: ____________________`
+`Tanda Tangan Phase Lead 2: [image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20davina.png)`
 
 `Diverifikasi oleh Dosen Pengampu / Coach:`  
 `Tanggal: [ Tanggal ] | Status Checkpoint: [ APPROVED / REVISION NEEDED ]`  
