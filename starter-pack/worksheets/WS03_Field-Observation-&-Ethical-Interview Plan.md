@@ -97,11 +97,11 @@
 
 | Peran | Nama Anggota | Tanda Tangan |
 | :--- | :--- | :---: |
-| **Phase Lead 2 (Mahasiswa B)** | Davina Walasyah | ( Tanda Tangan ) |
-| **Anggota Tim 1** | Lailatul Fitriyah | ( Tanda Tangan ) |
-| **Anggota Tim 2** | Zaskia Azwa Mutmainah | ( Tanda Tangan ) |
-| **Anggota Tim 3** | Atiqah Subandono | ( Tanda Tangan ) |
-| **Anggota Tim 4** | Arselly Tri Kurniasari | ( Tanda Tangan ) |
+| **Phase Lead 2 (Mahasiswa B)** | Davina Walasyah |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20davina.png) |
+| **Anggota Tim 1** | Lailatul Fitriyah |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20laila.png) |
+| **Anggota Tim 2** | Zaskia Azwa Mutmainah |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20zaskia.png)|
+| **Anggota Tim 3** | Atiqah Subandono |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20atiqah.png) |
+| **Anggota Tim 4** | Arselly Tri Kurniasari |[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20arselly.png)|
 
 ---
 
