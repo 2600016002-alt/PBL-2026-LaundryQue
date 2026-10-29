@@ -151,17 +151,13 @@
 
     "Jika dibangunkan alat bantu sistem informasi sederhana, kemampuan utama apa yang paling Bapak/Ibu harapkan?" karena takut pihak laundry menaruh harapan besar terhadap projek kami.
 
-    4. 2600016043_Arselly Tri Kurniasari
+    4. 2600016043_Arselly Tri Kurniasari:
 
-    Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
+Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk
 
-
-
-
-
-    . 2600016001_Lailatul Fitriyah:
-
-        Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
+    5. 2600016001_Lailatul Fitriyah:
+    
+Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
 
 **Q: Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**
 >**JAWABAN**
@@ -182,7 +178,7 @@ Login ke akun kasir, karena itu perlu data pribadi karyawan yang menjaga pada sh
 
 Laporan keuangan internal, yang sangat rahasia dan mungkin tidak relevan untuk investigasi proses bisnis.
 
-5. 2600016001_Lailatul Fitriyah:
+5. 2600016001_Lailatul Fitriyah: Laporan keuangan.
 
 Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
 =======
@@ -191,7 +187,9 @@ Batasan laporan keuangan dan laporan shift karyawan karna ini data pribadi.
 2. 2600016002 Davina Walasyah: “Berapa lama waktu yang bisa kamu janjikan kepada saya untuk projek ini?”. Alasannya  karena walaupun kami  sudah memberikan batasan sistem seringkali mitra masih meragukan tim.
 3. 2600016043 Arselly Tri Kurniasari: Pertanyaan target solusi karena takut pemilik usahanya tidak bisa untuk diajak diskusi karna pemilik usahanya sibuk. 
 2600016001 Lailatul Fitriyah: Pertanyaan bagian target solusi karena karyawan mitra takut jika kita membuat perubahan pada sistem yang telah diberikan oleh atasan.
-4. 2600016026 Atiqah Subandono:
+4. 2600016026 Atiqah Subandono:  Pertanyaan kategori Data & Pencatatan, karena kami harus bisa membedakan mana pertanyaan maupun topik yang mengarah ke ranah pribadi, kami harus sangat berhati-hati agar tidak menghancurkan rasa percaya yang sudah dibangun.
+5. 2600016001_Lailatul Fitriyah: Pertanyaan bagian infrastruktur fisik karna menurut kami secara infrastruktur laundry que ini sudah memiliki sistem yang lumayan baik. 
+
 
 
 * **Informasi atau data apa yang TIDAK boleh kami akses / tanyakan kepada mitra demi menjaga etika dan privasi?**  
