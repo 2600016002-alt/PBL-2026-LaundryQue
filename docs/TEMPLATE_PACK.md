@@ -32,14 +32,14 @@ Related Files:
 **Tim**: [Nama anggota] | **Tanggal**: [DD/MM/YYYY] | **Versi**: [v1.0]
 
 ### 1. User / Context
-- Nama unit usaha / organisasi: [nama]
-- Jenis usaha / layanan: [mis. kantin kampus, warung, koperasi]
-- Lokasi: [lokasi]
-- Deskripsi operasional: [apa yang dilakukan, siapa pengguna, kapan beroperasi]
-- Narahubung / pemilik: [nama, jabatan, kontak]
+- Nama unit usaha / organisasi: Laundry Que
+- Jenis usaha / layanan: Laundry
+- Lokasi: JI. Ki Ageng Pemanahan, Kragilan, Tamanan, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55191
+- Deskripsi operasional: Menyediakan pilihan cuci kering, cuci basah, dan fasilitas laundry mandiri (*self service*) yang dimana pelanggan mencuci dan mengeringkan pakaiannya sendiri menggunakan mesin yang tersedia. Layanan ini ditujukan bagi mahasiswa dan warga sekitar serta beroperasi setiap hari selama 24 jam.
+- Narahubung / pemilik: Nurma / Kasir / 0881-3723-646
 
 ### 2. Observed Situation (Situasi yang Diamati)
-- Fenomena yang diamati di lapangan: [...]
+- Fenomena yang diamati di lapangan: Alur pelayanan karyawan kepada pelanggan seperti: karyawan menanyakan data pelanggan yaitu nama dan nomor telepon serta jenis layanan apa yang akan dipilih, cara karyawan menginput data kedalam aplikasi SpinTrack yang selanjutnya akan memberi informasi total pembayaran kepada pelanggan, metode pembayaran apa yang dipilih oleh pelanggan (Cash/QRIS), dan cara pelanggan mengoperasikan mesin cuci dan mesin pengeringnya, pencatatan stok dan rekapitulasi keuangan. Dari sini, kami menemukan beberapa masalah seperti: aplikasi SpinTrack mengalami loading sekitar 1-2 menit sehingga saat memasukkan pesanan terkadang membutuhkan waktu cukup lama yang membuat antrian mengular di hari sibuk, kasir masih perlu memeriksa kembali jumlah pemasukan dengan membandingkan data yang tercatat pada SpinTrack sehingga mengharuskan kasir bekerja 2 kali yang tidak efisien, pengiriman nota yang masih manual, pencatatan stok yang belum menggunakan media terpusat, dan penyampaian informasi mengenai giliran mesin cuci yang masih mengandalkan panggilan telepon karena belum tersedia fitur pemberitahuan antrean secara otomatis yang berpotensi  merugikan waktu pelanggan karena proses mencuci yang lebih lama akibat tidak mendapat informasi menunggu giliran.
 
 ### 3. Evidence (Bukti)
 - Data kuantitatif pendukung (indikator, nilai/baseline, sumber data, tanggal):
@@ -49,20 +49,54 @@ Related Files:
 - Kutipan observasi/wawancara kunci: [...]
 
 ### 4. Insight
-- Pemahaman mengapa masalah ini terjadi: [...]
+- Pemahaman mengapa masalah ini terjadi: Masalah ini terjadi karena... 
 
 ### 5. Problem Statement
-- Pernyataan masalah yang jelas (bukan solusi): [...]
-- Pihak yang terdampak & keparahan: [...]
+- Pernyataan masalah yang jelas (bukan solusi): 
+
+1. Proses pendataan pelanggan tidak berjalan efisien dan konsisten akibat performa aplikasi SpinTrack yang lambat (loading 1-2 menit).
+
+2. Alur komunikasi ketersediaan stok barang dan pengiriman nota transaksi masih dilakukan secara manual melalui WhatsApp sehingga menyulitkan pemantauan secara terpusat dan memperlambat pelayanan pelanggan.
+
+3. proses tutup kas atau rekapitulasi keuangan sangat menyita waktu hingga 20 menit di setiap akhir shift karena kasir masih harus melakukan pencocokan data pemasukan di aplikasi dengan uang fisik (cash) secara manual.
+
+- Pihak yang terdampak & keparahan:
+
+1. Kasir / Karyawan
+
+* Tingkat Keparahan: Tinggi
+
+Alasannya adalah karena sangat menguras waktu dan tenaga karyawan secara sia-sia. Karyawan harus melakukan tugas administratif (menelepon pelanggan untuk memberitahu giliran antrean, pencocokan data saat rekapitulasi keuangan) repetitif yang seharusnya bisa diotomatisasi.
+
+2. Pelanggan 
+
+* Tingkat Keparahan: Sedang hingga Tinggi
+
+Alasannya adalah karena menciptakan pengalaman pelanggan yang buruk. Keparahan bagi pelanggan mencakup waktu tunggu yang lebih lama di awal karena aplikasi lambat (loading 1-2 menit), tidak adanya kepastian atau transparansi langsung terkait nota transaksi (kecuali jika diminta) dan proses antrean yang tidak praktis karena menunggu ditelepon oleh karyawan (kecuali inisiatif pelanggan untuk datang sendiri dengan bermodalkan menghitung perkiraan waktu selesainya antrean). Keparahan jangka panjangnya adalah pelanggan merasa pelayanan pelayanannya lambat dan menyita waktu mereka yang menyebabkan beralihnya kepada kompetitor.
 
 ### 6. Impact
-- Dampak bila masalah tidak diselesaikan: [...]
+- Dampak bila masalah tidak diselesaikan: Jika permasalahan ini tidak diselesaikan, bisnis akan terus mengalami inefisiensi operasional yang memicu pembengkakan beban kerja karyawan, tingginya risiko kesalahan manusia (*human error*), serta menurunnya kualitas pengalaman/kepuasan pelanggan yang berpotensi menghilangkan loyalitas konsumen jangka panjang. 
 
 ### 7. Scope
 - Diselesaikan dalam proyek ini: [...]
 
 ### 8. Non-Scope
-- Tidak diselesaikan (dan alasan): [...]
+- Tidak diselesaikan (dan alasan): 
+1. Penghubungan sistem secara langsung dengan aplikasi SpinTrack.
+
+Alasan: memerlukan akses dan pengenbangan langsung pada aplikasi SpinTrack yang berada diluar kemampuan proyek kelompok.
+
+2. Pengiriman pesan dan pembayaran yang terhubung secara otomatis dengan WhatsApp dan Livin' Merchant.
+
+Alasan: Membutuhkan proses integrasi dengan layanan pihak ketiga yang lebih kompleks.
+
+3. Pengaturan mesin cuci dan pengering melalui sistem secara otomatis.
+
+Alasan: Pengembangan proyek lebih difokuskan pada pencatatan administrasi dan pelayanan pelanggan, bukan pengaturan perangkat mesin.
+
+4. Penanganan pakaian pelanggan yang hilang, rusak, atau tertukar. 
+
+Alasan: Permasalahan tersebut berkaitan dengan kebijakan dan tanggungjawab operasional laundry, bukan fitur utama yang dirancang oleh kelompok.
 
 ### 9. Success Metric
 - Metrik yang menunjukkan masalah teratasi: [...]
