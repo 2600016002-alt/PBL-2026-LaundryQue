@@ -28,8 +28,8 @@ Related Files:
 *Dipenuhi dari hasil WS02–WS04.*
 
 ## Problem Brief
-**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
-**Tim**: [Nama anggota] | **Tanggal**: [DD/MM/YYYY] | **Versi**: [v1.0]
+**Project**: Digital Problem Framing Mini Project — Laundry QUE
+**Tim**:Atiqah Subandono, Arselly Tri Kurniasari, Davina Walasyah, Lailatul Fitriyah, Zaskia Azwa Mutmainah | **Tanggal**: 11/11/2026 | **Versi**: [v1.0]
 
 ### 1. User / Context
 - Nama unit usaha / organisasi: Laundry Que
@@ -78,7 +78,8 @@ Alasannya adalah karena menciptakan pengalaman pelanggan yang buruk. Keparahan b
 - Dampak bila masalah tidak diselesaikan: Jika permasalahan ini tidak diselesaikan, bisnis akan terus mengalami inefisiensi operasional yang memicu pembengkakan beban kerja karyawan, tingginya risiko kesalahan manusia (*human error*), serta menurunnya kualitas pengalaman/kepuasan pelanggan yang berpotensi menghilangkan loyalitas konsumen jangka panjang. 
 
 ### 7. Scope
-- Diselesaikan dalam proyek ini: [...]
+- Diselesaikan dalam proyek ini:
+  Pengiriman nota digital kepada pelanggan melalui WhatsApp.
 
 ### 8. Non-Scope
 - Tidak diselesaikan (dan alasan): 
@@ -110,20 +111,36 @@ Alasan: Permasalahan tersebut berkaitan dengan kebijakan dan tanggungjawab opera
 *Dipenuhi dari hasil WS05–WS08.*
 
 ## System & Solution Design
-**Project**: Digital Problem Framing Mini Project — [Nama Unit Usaha]
-**Tim**: [Nama anggota] | **Tanggal**: [DD/MM/YYYY] | **Versi**: [v1.0]
+**Project**: Digital Problem Framing Mini Project — Laundry Que
+**Tim**:Atiqah Subandono, Arselly Tri Kurniasari, Davina Walasyah, Lailatul Fitriyah, Zaskia Azwa Mutmainah  | **Tanggal**: 11/11/2026 | **Versi**: [v1.0]
 
 ### 1. User
-- Pengguna utama solusi & yang terdampak: [...]
+- Pengguna utama solusi & yang terdampak: kasir/karyawan Laundry Que
 
 ### 2. User Story
 | # | User Story | Prioritas (Tinggi/Sedang/Rendah) |
 |---|---|---|
-| 1 | Sebagai [peran], saya ingin [fitur] sehingga [manfaat] | [ ] |
-| 2 | ... | ... |
+| 1 | Sebagai Karyawan/kasir Laundry Que, saya ingin Setelah membayar, Google Sheet secara otomatis mengirimkan chat struk belanjaan dan link member secara bersamaan ke nomor WhatsApp pelanggan, sehingga Tidak perlu menyalin nomor dan mengirimkan struk secara manual satu persatu menggunakan pesan pribadi dengan aplikasi WhatsApp.| Tinggi |
+| 2 | sebagai Karyawan/kasir Laundry Que, saya ingin Mengirim Google Sheet untuk meminta pengisian ulang bahan baku (air, gas, sabun, pewangi, dll) kepada admin, sehingga Pengajuan restock teratur dan tidak lagi bergantung pada chat pribadi WhatsApp.| Sedang |
+| 3 | sebagai Karyawan/kasir Laundry Que, saya ingin Ketik tabung mesin cuci kosong Google Sheet akan mengirim notifikasi status tabung mesin cuci kepada pelanggan, apakah tabung sudah kosong atau belum secara otomatis, sehingga Memangkas waktu tunggu dan tidak membuat laundry penuh dengan antrian manusia ataupun antrian baju yang menumpuk.| Rendah |
 
 ### 3. Requirements
-- Daftar kebutuhan yang diturunkan dari D1: [...]
+- Daftar kebutuhan yang diturunkan dari D1:
+- 1. Pengiriman nota 
+Rancangan: Fitur nota digital yang bisa dikirim melalui WhatsApp.
+Isi fitur: Nama pelanggan, nomor telepon, jenis layanan, total pembayaran, dan tombol pengiriman nota otomatis ke WhatsApp pelanggan.
+Tujuan: Pelanggan dapat menerima nota setelah transaksi dilakukan tanpa harus meminta nota terlebih dahulu kepada kasir.
+2. Rekapitulasi Harian
+Rancangan: Tabel pencatatan stok perlengkapan dan pemasukan harian
+Isi Fitur:
+Tabel Rekapitulasi Harian: Berisi pemasukkan dana di SpinTrack, uang yang diterima kasir, selisih.
+Tabel Pencatatan Perlengkapan:
+ Berisi nama perlengkapan (detergen, gas, air mineral), kondisi stok (habis/tersedia/menipis), keterangan (perlu restock/tidak).
+Tujuan: Memudahkan karyawan dalam memantau barang, menghindari selisih antara data pemasukkan dan memudahkan admin dalam memantau kebutuhan restock.
+3. Pengelolaan antrean Rancangan:
+ Sistem antrean dengan fitur pemberitahuan kepada pelanggan.
+ Isi fitur: Nama pelanggan, nomor WhatsApp pelanggan, daftar pelanggan yang sedang mengantre, status antrean pelanggan, nomor tabung yang sedang terisi, tombol untuk mengirim pemberitahuan kepada pelanggan ketika gilirannya tiba.
+Tujuan: Mempermudah kasir menghubungi pelanggan berikutnya sehingga pekerjaan yang lain dapat dikerjakan lebih cepat.
 
 ### 4. Acceptance Criteria
 | # | Kriteria Penerimaan (terukur & dapat diuji) |
@@ -137,21 +154,88 @@ Alasan: Permasalahan tersebut berkaitan dengan kebijakan dan tanggungjawab opera
 | [metrik] | [angka] | [angka] | [cara ukur] |
 
 ### 6. Input-Process-Output (IPO)
-- Input: ...
-- Proses: ...
-- Output: ...
+- Input:Nama pelanggan. No.telpon pelaggan. jumlah tabung yang di pakai. jenis layanan yang dipilih, harga.
+- Proses:Hitung total jumlah jenis layanan yang di pilih, hitung total tabung yang di pakai pelanggan, menyiapkan data transaksi untuk nota pelanggan
+- Output:nama pelanggan, No.telpon pelanggan,jumlah tabung, jenis layanan yang dipilih, total pembayaran pelanggan.
 
 ### 7. Data
-- Data yang disimpan & sumbernya: [...]
+- Data yang disimpan & sumbernya:Menyimpan nota pelanggan di google sheet, bersumber dari nama dan no.telpon pelanggan.
 
 ### 8. Flowchart
 [Gambar/teks sederhana: mulai → proses → keputusan → selesai]
 
 ### 9. Pseudocode
-[Pseudocode singkat untuk setiap bagian utama]
+1.
+MULAI
+
+INPUT tanggal,nama, No_telpon
+
+CEK_DATABASE(nama,No_telpon)
+
+IF Pelanggan_Sudah_Ada THEN
+
+  LANJUT KE Pemilihan_layanan
+ELSE
+
+  INPUT nama,No_telpon, “Pelanggan Baru”
+  MASUKKAN_DATABASE(nama,No_telpon)
+ENDIF
+
+
+INPUT jenis_layanan
+IF jenis_layanan == "Cuci Kering" THEN 
+     harga = 20000
+ELIF jenis_layanan == "Cuci" THEN 
+         harga = 10000
+ELIF jenis_layanan == "Kering" THEN
+         harga = 10000
+ELSE 
+     OUTPUT "Pilihan layanan tidak valid" 
+ENDIF
+
+2.
+INPUT metode_pembayaran 
+IF metode_pembayaran == "Cash" THEN 
+     PROSES_BAYAR_CASH(harga) 
+ELIF metode_pembayaran == "Qris" THEN    
+     PROSES_BAYAR_QRIS(harga) 
+ELSE 
+     OUTPUT "Metode pembayaran tidak valid" 
+ENDIF
+
+
+STATUS = “Lunas”
+
+KIRIM_NOTA(STATUS,harga) VIA WhatsAap KE Pelanggan
+
+SELESAI
+
+
+ALUR LOGIKA:
+   MULAI
+
+INPUT stok_barang 
+
+IF stok_barang 5>= THEN
+   OUTPUT “Catat tanggal dan stock barang”
+ELSE
+   INPUT nama_kasir,tanggal,nama_barang KE google_sheet
+
+   KIRIM_PESAN “Permintaan restock” KE Admin VIA WhatsApp
+
+   TERIMA_PESAN “Permintaan dari kasir” OLEH Admin
+   SETUJUI_PERMINTAAN Oleh Admin
+   SERAHKAN_UANG(Admin ke Kasir)
+
+   BELI_BARANG_RESTOCK OLEH Kasir
+ENDIF
+
+SELESAI
+
 
 ### 10. Solution Concept
 - Konsep solusi: bagaimana kebutuhan dijawab solusi & peta komponen SI (proses-data-aplikasi-infrastruktur).
+- Komponen Solusi Tim:1. Kasir memasukkan data transaksi pelanggan ke Google Sheets. 2. Sistem menghitung total pembayaran secara otomatis. 3. Kasir membuat dan mengirim nota kepada pelanggan melalui WhatsApp. 4. Kasir mengisi permintaan restock melalui tabel stok. 
 
 ### 11. Hasil Validasi Pemilik Usaha
 - Tanggal validasi: [DD/MM/YYYY] | Feedback: [...] | Perubahan setelah validasi: [...]
