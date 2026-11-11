@@ -4,7 +4,7 @@
 
 | No | Pertanyaan Wawancara | Responden | Hasil/Jawaban |
 | :---: | :--- | :--- | :--- |
-| **1** | | | |
+| **1** |Bagaimana alur transaksi harian di usaha Bapak/Ibu mengalir sejak pelanggan datang hingga pesanan selesai?|Kak Nurma (karyawan)|Pelanggan datang dan memilih jenis layanan cuci serta detergen. Kasir memasukkan nama dan nomor WhatsApp pelanggan ke aplikasi SpinTrack hingga muncul total pembayaran. Pelanggan kemudian membayar secara tunai atau QRIS, lalu memasukkan pakaian ke mesin cuci. Mesin diatur melalui SpinTrack oleh kasir dengan durasi pencucian sekitar 20–25 menit, dilanjutkan pengeringan selama 30–40 menit. Setelah selesai, pelanggan mengambil pakaian, melipatnya, atau memasukkannya ke tas laundry masing-masing.|
 | **2** | | | |
 | **3** | | | |
 | **4** | | | |
