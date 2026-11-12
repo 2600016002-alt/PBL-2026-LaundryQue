@@ -153,7 +153,8 @@
 | **Rata-rata Waktu Transaksi per Pelanggan** | 60 detik / pelanggan | Diukur menggunakan stopwatch untuk 3–5 sampel transaksi. |
 | **Durasi Rekapitulasi Penjualan Harian** | 20 menit / akhir shift | Waktu yang dibutuhkan pemilik setiap malam untuk rekap nota. |
 | **Frekuensi Kesalahan Pencatatan / Selisih** | 1-2 kali / bulan | Setiap karyawan melakukan rekapitulasi di akhir shift dan hanya terjadi 1-2 kali / bulan.
-| **Jumlah Pelanggan pada Jam Sibuk** | 40 orang / hari | Beban transaksi puncak pada jam sibuk. |
+| **Jumlah Pelanggan pada Jam Sibuk** | 40 orang / hari | Antrian memuncak pada jam sibuk.
+ |
 
 ---
 
