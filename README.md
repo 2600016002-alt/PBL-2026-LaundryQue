@@ -1,3 +1,6 @@
+HEAD
+# pbl-2026-laundryque
+
 ﻿# PjBL Level 1 -- Digital Problem Framing Mini Project
 
 Buku petunjuk Project-Based Learning (PjBL) untuk mahasiswa Semester 1 Program Studi Sistem Informasi.
@@ -81,3 +84,4 @@ MIT License - Lihat [LICENSE](LICENSE) untuk detail.
 ---
 
 **Program Studi Sistem Informasi** | Tahun Akademik 2026/2027
+origin/main

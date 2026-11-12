@@ -59,10 +59,93 @@
 
 ### A. Pemetaan Alur Transaksi As-Is (Kronologis Kronik)
 
-* **Langkah 1 (Input Pesanan):** Pelanggan datang ke Laundry Que, ke meja kasir, karyawan menanyakan nama pelanggan, nomor telepon, dan jenis layanan (cuci Rp10.000 dan kering Rp10.000), lalu input datanya ke aplikasi SpinTrack. Terkadang SpinTrack mengalami loading sekitar 1-2 menit.
-* **Langkah 2 (Kalkulasi & Pembayaran):** SpinTrack menampilkan total pembayaran setelah karyawan menginput data pesanan. Pelanggan dapat memilih untuk membayar dengan QRIS atau tunai. Pembayaran QRIS otomatis masuk ke Livin' Merchant admin laundry que dan dicatat pada SpinTrack. Sebaliknya, pembayaran tunai dimasukkan ke laci kasir dan dicatat pada SpinTrack. Pelanggan akan menerima pesan otomatis melalui WhatsApp dengan link member setelah transaksi. Namun, nota transaksi hanya dikirim jika pelanggan memintanya, dan tidak dikirim secara otomatis melainkan karyawan masih secara manual mengirimkan nota melalui pesan pribadi WhatsApp. 
-* **Langkah 3 (Penyerahan Barang):** Setelah membayar, pelanggan pergi ke area mesin cuci dan memasukkan pakaian sendiri ke dalam tabung. Mereka tidak menimbang atau mencatat jumlah pakaian. Setiap tabung memiliki kapasitas 8-9 kg untuk satu pelanggan. Karyawan mengatur tabung pencucian dengan SpinTrack selama 20-25 menit, tergantung banyaknya pakaian. Pelanggan memindahkan pakaian ke tabung pengering di atas mesin cuci setelah selesai. Pengering berputar selama 40 menit tanpa diatur lagi. Pakaian dapat diambil dan dilipat menggunakan keranjang yang disediakan atau langsung dibawa pulang ke tas laundry pribadi setelah selesai. Jika seluruh tabung terisi: Pelanggan dapat meninggalkan pakaiannya atau menunggu di ruang tunggu sampai salah satu tabung berhenti. Ketika tabung tersedia, karyawan akan menghubungi pelanggan melalui telepon dengan durasi yang dibutuhkan untuk menghubungi pelanggan kurang lebih sekitar 5-10 menit. Jika pelanggan tidak menjawab panggilan telepon setelah beberapa kali dihubungi, pelanggan lain yang sedang menunggu di Laundry Que dapat menggunakan tabung yang kosong. Karyawan tidak bertanggung jawab atas kerusakan, kehilangan, atau tertukarnya pakaian yang ditinggalkan. 
-* **Langkah 4 (Pencatatan Stok & Rekapitulasi):** Tidak seperti buku atau aplikasi pencatatan stok, pencatatan gas, detergen, dan air mineral masih dilakukan melalui pesan WhatsApp dari kasir kepada admin. Sementara itu, SpinTrack merekap jenis layanan dan total pemasukan berdasarkan shift karyawan. Untuk mencegah perbedaan, kasino juga harus mencocokkan data SpinTrack dengan uang yang diterima. **Cara kerja SpinTrack untuk merekap dana harian:** Prosesnya dilakukan di aplikasi Spintrack (masuk menu Setting → klik Akhiri Shift → laporan PDF rekapitulasi harian otomatis masuk ke WhatsApp admin).
+* **Langkah 1 (Kedatangan Pelanggan):**  
+  Pelanggan datang ke Laundry Que dan menuju meja kasir untuk melakukan transaksi laundry.
+
+* **Langkah 2 (Pendataan Pelanggan):**  
+  Karyawan menanyakan nama dan nomor telepon pelanggan sebagai data yang diperlukan untuk transaksi.
+
+* **Langkah 3 (Pemilihan Layanan):**  
+  Karyawan menanyakan jenis layanan yang dipilih pelanggan, yaitu layanan cuci seharga Rp10.000 dan layanan kering seharga Rp10.000 atau layanan cuci dan kering Rp20.000.
+
+* **Langkah 4 (Input Data Pesanan):**  
+  Karyawan memasukkan nama, nomor telepon, dan jenis layanan pelanggan ke dalam aplikasi SpinTrack.
+
+* **Langkah 5 (Proses Loading Aplikasi):**  
+  Pada saat memasukkan data, terkadang aplikasi SpinTrack mengalami loading selama sekitar 1–2 menit sebelum dapat melanjutkan proses transaksi.
+
+* **Langkah 6 (Kalkulasi Total Pembayaran):**  
+  Setelah seluruh data pesanan dimasukkan, aplikasi SpinTrack secara otomatis menampilkan total pembayaran yang harus dibayarkan pelanggan.
+
+* **Langkah 7 (Pemilihan Metode Pembayaran):**  
+  Pelanggan dapat memilih metode pembayaran yang tersedia, yaitu menggunakan QRIS atau uang tunai. 
+
+* **Langkah 8 (Proses Pembayaran QRIS):**  
+  Jika pelanggan memilih QRIS, pembayaran akan masuk secara otomatis ke aplikasi Livin' Merchant milik admin Laundry Que.
+
+* **Langkah 9 (Proses Pembayaran Tunai):**  
+  Jika pelanggan memilih pembayaran tunai, uang pembayaran diterima oleh karyawan dan dimasukkan ke dalam laci kasir.
+
+* **Langkah 10 (Pencatatan Pembayaran):**  
+  Pembayaran menggunakan QRIS maupun tunai dicatat oleh karyawan melalui aplikasi SpinTrack sesuai dengan transaksi pelanggan. 
+
+* **Langkah 11 (Pengiriman Link Member):**  
+  Setelah transaksi selesai, pelanggan akan menerima pesan otomatis melalui WhatsApp yang berisi tautan member Laundry Que.
+
+* **Langkah 12 (Pengiriman Nota Transaksi):**  
+  Nota transaksi tidak dikirimkan secara otomatis kepada pelanggan. Nota hanya diberikan apabila pelanggan memintanya, kemudian karyawan mengirimkan nota tersebut secara manual melalui pesan pribadi WhatsApp. 
+
+* **Langkah 13 (Menuju Area Mesin Cuci):**  
+  Setelah melakukan pembayaran, pelanggan menuju area mesin cuci untuk memulai proses pencucian pakaian.
+
+* **Langkah 14 (Memasukkan Pakaian ke Mesin):**  
+  Pelanggan memasukkan pakaiannya sendiri ke dalam tabung mesin cuci. Pelanggan tidak melakukan penimbangan maupun pencatatan jumlah pakaian yang dimasukkan. 
+
+* **Langkah 15 (Kapasitas Mesin Cuci):**  
+  Setiap tabung mesin cuci memiliki kapasitas sekitar 8–9 kg untuk satu pelanggan. 
+
+* **Langkah 16 (Pengaturan Mesin Cuci):**  
+  Karyawan mengatur tabung mesin cuci menggunakan aplikasi SpinTrack sesuai dengan kebutuhan proses pencucian pelanggan.
+
+* **Langkah 17 (Proses Pencucian):**  
+  Mesin cuci beroperasi selama sekitar 20–25 menit, tergantung pada banyaknya pakaian yang dimasukkan ke dalam tabung.
+
+* **Langkah 18 (Pemindahan Pakaian ke Mesin Pengering):**  
+  Setelah proses pencucian selesai, pelanggan memindahkan pakaian dari tabung mesin cuci ke tabung pengering yang berada di atas mesin cuci.
+
+* **Langkah 19 (Proses Pengeringan):**  
+  Pakaian dikeringkan menggunakan mesin pengering selama kurang lebih 40 menit. Mesin pengering berputar tanpa perlu dilakukan pengaturan ulang oleh karyawan.
+
+* **Langkah 20 (Pengambilan dan Pelipatan Pakaian):**  
+  Setelah proses pengeringan selesai, pelanggan dapat mengambil pakaian dan melipatnya menggunakan keranjang yang telah disediakan atau langsung memasukkannya ke dalam tas laundry pribadi untuk dibawa pulang.
+
+* **Langkah 21 (Antrean dan Ketersediaan Mesin):**  
+  Apabila seluruh tabung mesin telah terisi, pelanggan dapat memilih untuk menunggu di ruang tunggu atau meninggalkan pakaiannya sementara waktu sampai tersedia tabung kosong.
+
+* **Langkah 22 (Pemberitahuan Ketersediaan Mesin):**  
+  Ketika salah satu tabung mesin sudah tersedia, karyawan menghubungi pelanggan melalui telepon dengan waktu yang dibutuhkan sekitar 5–10 menit untuk menghubungi pelanggan.
+
+* **Langkah 23 (Penanganan Pelanggan yang Tidak Merespons):**  
+  Jika pelanggan tidak menjawab panggilan telepon setelah beberapa kali dihubungi, pelanggan lain yang sedang menunggu di Laundry Que diperbolehkan menggunakan tabung mesin yang sudah kosong.
+
+* **Langkah 24 (Tanggung Jawab Pakaian Pelanggan):**  
+  Karyawan tidak bertanggung jawab atas kerusakan, kehilangan, maupun tertukarnya pakaian pelanggan yang ditinggalkan di Laundry Que.
+
+* **Langkah 25 (Pencatatan Stok Barang):**  
+  Pencatatan stok gas, detergen, dan air mineral belum menggunakan buku atau aplikasi pencatatan stok khusus. Informasi kebutuhan stok disampaikan oleh karyawan kasir kepada admin melalui pesan WhatsApp.
+
+* **Langkah 26 (Rekapitulasi Transaksi Berdasarkan Shift):**  
+  Aplikasi SpinTrack digunakan untuk merekap jenis layanan dan total pemasukan berdasarkan shift karyawan yang bertugas.
+
+* **Langkah 27 (Pencocokan Data Pemasukkan SpinTrack dan Uang Tunai):**  
+  Pada akhir shift, karyawan melakukan pencocokan antara data transaksi pada aplikasi SpinTrack dengan uang tunai yang diterima untuk memastikan tidak terjadi perbedaan pencatatan. 
+
+* **Langkah 28 (Proses Akhiri Shift):**  
+  Karyawan melakukan rekapitulasi harian melalui aplikasi SpinTrack dengan membuka menu Setting, kemudian memilih menu Akhiri Shift. 
+
+* **Langkah 29 (Pengiriman Laporan Rekapitulasi Harian):**  
+  Setelah proses akhiri shift dilakukan, laporan rekapitulasi harian dalam format PDF secara otomatis dikirimkan melalui WhatsApp kepada admin Laundry Que. 
+
 ### B. Tabel Pengumpulan Data Kuantitatif Sederhana (Evidence)
 
 | Indikator Pengukuran | Angka Baseline Hasil Observasi | Satuan / Keterangan |
@@ -70,7 +153,7 @@
 | **Rata-rata Waktu Transaksi per Pelanggan** | 30-60 detik / pelanggan | Diukur menggunakan stopwatch untuk 3–5 sampel transaksi. |
 | **Durasi Rekapitulasi Penjualan Harian** | 20 menit / akhir shift | Waktu yang dibutuhkan pemilik setiap malam untuk rekap nota. |
 | **Frekuensi Kesalahan Pencatatan / Selisih** | 1-2 kali / bulan | Setiap karyawan melakukan rekapitulasi di akhir shift dan hanya terjadi 1-2 kali / bulan.
-| **Jumlah Pelanggan pada Jam Sibuk** | 40 orang / jam sibuk | Beban transaksi puncak pada jam sibuk. |
+| **Jumlah Pelanggan pada Jam Sibuk** | 40 orang / hari | Beban transaksi puncak pada jam sibuk. |
 
 ---
 

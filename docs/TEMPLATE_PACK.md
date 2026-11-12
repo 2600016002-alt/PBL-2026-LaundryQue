@@ -154,9 +154,9 @@ Tujuan: Mempermudah kasir menghubungi pelanggan berikutnya sehingga pekerjaan ya
 | [metrik] | [angka] | [angka] | [cara ukur] |
 
 ### 6. Input-Process-Output (IPO)
-- Input:Nama pelanggan. No.telpon pelaggan. jumlah tabung yang di pakai. jenis layanan yang dipilih, harga.
-- Proses:Hitung total jumlah jenis layanan yang di pilih, hitung total tabung yang di pakai pelanggan, menyiapkan data transaksi untuk nota pelanggan
-- Output:nama pelanggan, No.telpon pelanggan,jumlah tabung, jenis layanan yang dipilih, total pembayaran pelanggan.
+- Input:Nama barang yang ingin di-restock. Jumlah stok yang tersedia. Jumlah barang yang dibutuhkan. Nama kasir. Tanggal permintaan.  Perkiraan biaya pembelian.
+- Proses:Kasir memeriksa stok barang yang tersedia. Kasir mengajukan permintaan restock kepada admin. Sistem mencatat barang dan jumlah yang dibutuhkan. Admin memberikan uang untuk pembelian barang. Kasir membeli barang dan memperbarui jumlah stok.
+- Output:Nama barang yang di-restock.  Jumlah barang yang dibeli. Total biaya pembelian. Nama kasir yang mengajukan. Status permintaan (Menunggu, Diproses, Selesai).
 
 ### 7. Data
 - Data yang disimpan & sumbernya:Menyimpan nota pelanggan di google sheet, bersumber dari nama dan no.telpon pelanggan.
@@ -362,12 +362,12 @@ SELESAI
 *Dipenuhi dari hasil WS15.*
 
 ## AI Usage Disclosure & Verification Note
-**Project**: ... | **Tim**: ... | **Tanggal**: [DD/MM/YYYY]
+**Project**:Laundry Que | **Tim**: Tim Bugenvil | **Tanggal**: 12/11/2026
 
 ### 1. Daftar Penggunaan AI
 | Artefak | Tool AI | Bagian yang Dibantu | Modifikasi yang Dilakukan |
 |---|---|---|---|
-| D1 | [nama tool] | [bagian] | [cara modifikasi] |
+| D1 | [ | [bagian] | [cara modifikasi] |
 | D2 | ... | ... | ... |
 | D3 | ... | ... | ... |
 | D4 | ... | ... | ... |
@@ -394,7 +394,7 @@ Tanda tangan seluruh anggota:
 *Dipenuhi dari hasil WS08, WS12, WS15.*
 
 ## Decision Log
-**Project**: ... | **Tim**: ... | **Periode**: [Minggu 5–16]
+**Project**: PBL Laundry Que | **Tim**: Tim Bugenvil| **Periode**: [Minggu 5–16]
 
 | # | Tanggal | Konteks | Keputusan | Alternatif yang Dipertimbangkan | Alasan | Konsekuensi |
 |---|---|---|---|---|---|---|
@@ -407,10 +407,39 @@ Tanda tangan seluruh anggota:
 *Dipenuhi dari hasil WS01, WS13, WS16.*
 
 ## Meeting Log & Peer Assessment
-**Project**: ... | **Tim**: ... | **Periode**: [Minggu 1–16]
+**Project**: PBL Laudry Que | **Tim**: Tim Bugenvil | **Periode**: [Minggu 1–16]
 
 ### 1. Kesepakatan Norma Tim & Rotasi Phase Lead
-[Norma + tabel rotasi phase lead + tanda tangan]
+A. Norma Kesepakatan Tim
+ 1.Komunikasi & Respon: Wajib merespon WA di hari itu juga, secepat mungkin.
+ 2.Ketepatan Waktu & Kehadiran: Wajib berkumpul di perpustakaan di hari Senin, Selasa, Jumat.
+ 3.Kualitas & Tenggat Tugas: Mengumpulkan tugas maksimal H-2 dari batas pengumpulan tugas.
+ 4.Transparansi & Pembagian Beban: Mengomunikasikan hambatan secara terbuka dan saling membantu tanpa saling menyalahkan, dan selalu mencatat hasil diskusi      di GDrive.
+ 5.Etika Penggunaan AI Co-Pilot: Selalu mencatat prompt GenAI pada TPL-07 dan tidak mengumpulkan hasil AI tanpa verifikasi logis.
+
+B.Tabel Rotasi Phase Lead 
+2. Alokasi Kepemimpinan Bergilir (Rotating Phase Lead)
+
+| # | Fase Learning Spine | Minggu | Phase Lead (PIC Utama) | Nama Anggota Tim | Tanggung Jawab Utama Fase |
+|---|---|---|---|---|---|
+| 1 | Fase 1: Discover | M1 | Mahasiswa A | Zaskia Azwa M | Observe + Interview Setup (Memimpin WS01 & WS02) |
+| 2 | Fase 2: Frame | M2 | Mahasiswa B | Davina Walasyah | Evidence + Insight + Problem Scope (Memimpin WS03 & WS04)
+| 3 | Fase 3: Define | M3–M4 | Mahasiswa C | Atiqah Subandono | User Requirement + Success Metrics (Memimpin WS05 & WS06)
+| 4 | Fase 4: Design | M5–M7 | Mahasiswa D | Lailatul Fitriyah | IPO + Flowchart + Pseudocode (Memimpin WS07 & WS08)
+| 5 | Fase 5: Build | M9–M12 | Mahasiswa A | Arselly Tri K | Simple CLI Prototype Development (Memimpin WS09–WS11)
+| 6 | Fase 6: Test | M11–M12 | Mahasiswa B | Atiqah Subandono | Testing + User Validation (UAT) (Memimpin WS12 & WS13)
+| 7 | Fase 7: Communicate | M14–M15 | Mahasiswa C | Lailatul Fitriyah | Demo + Pitch Deck + Exhibition Setup (Memimpin WS14)
+| 8 | Fase 8: Reflect | M13–M16 | Mahasiswa D | Davina Walasyah | Decision + AI Disclosure + Final Portfolio (Memimpin WS15 & WS16)
+
+C. Tabel Pengesahan Anggota Tim beserta Tanda Tangan
+| # | Nama Mahasisw | NIM | Peran / Rotasi Utama | Tanda Tangan / Persetujuan |
+|---|---|---|---|---|
+| 1 | Zaskia Azwa Mutmainah | 2600016018 | Phase Lead 1 (Discover) |...|
+| 2 | Davina Walasyah | 2600016002 | Phase Lead 2 (Frame) & Phase Lead 8 (Reflect) |...|
+| 3 | Atiqah Subandono | 2600016026 | Phase Lead 3 (Define) & Phase Lead 6 (Test) |...|
+| 4 | Lailatul Fitriyah | 2600016001 | Phase Lead 4 (Design) & Phase Lead 7 (Communicate) |...|
+| 5 | Arselly Tri Kurniasari | 260001604 | Phase Lead 5 (Build) |...|
+
 
 ### 2. Log Pertemuan
 | Tanggal | Agenda | Keputusan | Tindak Lanjut | PIC |
@@ -420,7 +449,7 @@ Tanda tangan seluruh anggota:
 ### 3. Log Kontribusi Anggota
 | Anggota | Peran (Fase) | Kontribusi Utama | Minggu |
 |---|---|---|---|
-| ... | ... | ... | ... |
+| Zaskia Azwa Mutmainah | Observe + Interview Setup (Memimpin WS01 & WS02) | M | M1 |
 
 ### 4. Peer Assessment
 | Anggota | Umpan Balik (be kind, be specific, be helpful) |
