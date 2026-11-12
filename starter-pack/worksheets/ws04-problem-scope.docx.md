@@ -87,8 +87,8 @@ Tentukan target kuantitatif perbaikan yang ingin dicapai melalui solusi sistem i
 
 | Indikator Kinerja | Kondisi As-Is (Baseline) | Target To-Be (Expected) | Estimasi Persentase Peningkatan |
 | :---- | :---: | :---: | :---: |
-| **Waktu Pelayanan Transaksi Kasir** | 30-60 detik / pelanggan | **\< 30 detik / pelanggan** | Peningkatan efisiensi **33,33%**  |
-| **Durasi Rekapitulasi Harian** | 20 menit / akhir shift | **\< 20 menit / malam** | Penghematan waktu **50%**  |
+| **Waktu Pelayanan Transaksi Kasir** | 60 detik / pelanggan | **\< 60 detik / pelanggan** | Peningkatan efisiensi **33,33%** (45 detik)  |
+| **Durasi Rekapitulasi Harian** | 20 menit / akhir shift | **\< 20 menit / malam** | Penghematan waktu **50%** (10 menit)  |
 | **Akurasi Pencatatan Stok** | Selisih 1-2 kali / bulan | **Akurasi \> 98%** | Penurunan tingkat kesalahan selisih stok |
 
 ---
