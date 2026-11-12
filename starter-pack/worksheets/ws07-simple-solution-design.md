@@ -114,5 +114,5 @@ ALUR LOGIKA:
 - [x] Form TPL-07 (AI Usage Disclosure & Verification Note) telah dilampirkan.
 
 **Tanggal Pengesahan:** 11/11/2026  
-**Tanda Tangan Phase Lead 4 (Design):** *(Disertakan gambar/tanda tangan)*  
+**Tanda Tangan Phase Lead 4 (Design):** *[image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/main/starter-pack/assets/ttd%20laila.png)*  
 **Tanda Tangan Dosen Pembimbing / Coach:** ____________________
