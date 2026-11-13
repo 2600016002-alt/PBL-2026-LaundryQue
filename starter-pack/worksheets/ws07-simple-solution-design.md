@@ -105,14 +105,14 @@ ALUR LOGIKA:
   MULAI
   INPUT nama, no_telepon
 
-CEK DATABASE PELANGGAN
+CEK DATA PELANGGAN
 
   IF pelanggan ditemukan THEN
     OUTPUT "Pelanggan lama"
 
   ELSE
     MASUKKAN nama, no_telepon
-    MASUKKAN DATA KE DATABASE
+    MASUKKAN DATA PELANGGAN
     
 ENDIF
 
