@@ -81,7 +81,7 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 #### 4. DIAGRAM ALIR (FLOWCHART) LOGIKA PROGRAM
 *Petunjuk: Gambarkan diagram alir terstruktur menggunakan simbol standar (Persegi Panjang = Proses, Belah Ketupat = Keputusan IF-ELSE, Jajar Genjang = Input/Output, Oval = Start/End).*
 
-![Diagram Flowchart Restock Otomatis]([image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/569dd4e4137bef62661fee9705d41113eab2e136/starter-pack/assets/flowchart%20pengiriman%20nota%20laundry%20otomatis.png))
+![Diagram Flowchart Pengiriman Nota Otomatis] ([image](https://github.com/2600016002-alt/PBL-2026-LaundryQue/blob/569dd4e4137bef62661fee9705d41113eab2e136/starter-pack/assets/flowchart%20pengiriman%20nota%20laundry%20otomatis.png))
 
 ---
 
