@@ -14,9 +14,9 @@
 ### RUANG KERJA TIM (WORKSPACE)
 
 #### 1. IDENTIFIKASI KELOMPOK & SOLUSI
-* **Nama Tim:** Lailatul Fitriyah
+* **Nama Tim:** Tim Bugenvil
 * **Nama UMKM Mitra:** Laundry Que
-* **Judul Solusi SI:** Mengirimkan pesan otomatis pengajuan restock
+* **Judul Solusi SI:** pengiriman nota pelanggan otomatis 
 * **Phase Lead 4 (Design):** Lailatul Fitriyah
 
 ---
@@ -26,10 +26,10 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 
 | Lapisan Arsitektur | Komponen Solusi Tim | Keterangan & Batasan |
 | :--- | :--- | :--- |
-| **1. Process Layer** *(Alur Kerja To-Be)* | Kasir mengisi permintaan restock melalui tabel stock. | Restock barang, To-Be yang lebih efisien dibanding As-Is. |
-| **2. Data Layer** *(Struktur Data Logis)* | 1. Tabel Stok Barang.<br>2. Tabel Permintaan Restock. | Entitas data: tabel restock. |
-| **3. Application Layer** *(Modul Program)* | 1. Google Sheets sebagai aplikasi utama.<br>2. Form input nama barang.<br>3. Rumus otomatis untuk menghitung total pembayaran.<br>4. Form pencatatan restock. | Modul Utama: Login, pencatatan restock. |
-| **4. Infrastructure Layer** *(Perangkat Fisik)* | 1. Smartphone yang telah disediakan oleh Laundry.<br>2. Koneksi Wi-Fi atau data seluler.<br>3. WhatsApp. | Hardware: Smartphone POS; Net: Wi-Fi/4G; OS: Windows/Android. |
+| **1. Process Layer** *(Alur Kerja To-Be)* | 1.Kasir memasukkan data transaksi pelanggan ke Google Sheets. 2.Sistem menghitung total pembayaran secara otomatis. 3.Kasir membuat dan mengirim nota kepada pelanggan melalui WhatsApp| Alur transaksi kasir To-Be lebih efisien dibandingkan As-Is karena mengurangi pencatatan manual. |
+| **2. Data Layer** *(Struktur Data Logis)* | 1. Tabel Data Pelanggan. 2. Tabel Transaksi. 3. Tabel Nota Pembayaran. | Entitas data disimpan dalam Google Sheets dan saling berkaitan sesuai kebutuhan operasional Laundry Que. |
+| **3. Application Layer** *(Modul Program)* | 1. Google Sheets sebagai aplikasi utama. 2. Form input transaksi. 3. Rumus otomatis untuk menghitung total pembayaran. 4. Template nota pembayaran. | Modul utama: Input transaksi, hitung total/diskon, pembuatan nota |
+| **4. Infrastructure Layer** *(Perangkat Fisik)* |1. Laptop atau komputer kasir. 2. Smartphone karyawan. 3. Koneksi internet Wi-Fi atau data seluler. 4. Google Chrome. 5. Sistem operasi Windows atau Android. | Hardware: Smartphone POS; Net: Wi-Fi/4G; OS: Windows/Android. |
 
 ---
 
@@ -37,36 +37,44 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 * **Fitur Fungsional Utama:** Pemberitahuan otomatis restock barang
 
 * **Input:**
-  * Nama barang yang ingin di-restock
-  * Jumlah stok yang tersedia
-  * Jumlah barang yang dibutuhkan
-  * Nama kasir
-  * Tanggal permintaan
-  * Perkiraan biaya pembelian
-
+  * Nama pelanggan
+  * no.telpon pelanggan
+  * jumlah tabung yang di pakai
+  * jenis layanan: * cuci dan kering : Rp20000
+                   * cuci : Rp10000
+                   * keringkan : Rp10000
+  * metode pembayaran : * Qris
+                        * Cash
+  
 * **Processing:**
-  1. Kasir memeriksa stok barang yang tersedia.
-  2. Kasir mengajukan permintaan restock kepada admin.
-  3. Sistem mencatat barang dan jumlah yang dibutuhkan.
-  4. Admin memberikan uang untuk pembelian barang.
-  5. Kasir membeli barang dan memperbarui jumlah stok.
+1.Kasir memasukkan nama dan nomor telepon pelanggan.
+2.Sistem memeriksa data pelanggan di database.
+3.Jika pelanggan baru, sistem memasukkan data pelanggan ke database.
+4.Jika pelanggan lama, sistem menggunakan data yang sudah tersedia.
+5.Kasir memilih jenis layanan laundry.
+6.Sistem menentukan harga berdasarkan layanan yang dipilih.
+7.Kasir memilih metode pembayaran (Cash atau QRIS).
+8.Kasir mengonfirmasi apakah pembayaran sudah diterima.
+9.Jika pembayaran sudah lunas, sistem membuat nota.
+10.Sistem mengirimkan nota melalui WhatsApp pelanggan.
 
 * **Output:**
-  * Nama barang yang di-restock
-  * Jumlah barang yang dibeli
-  * Total biaya pembelian
-  * Nama kasir yang mengajukan
-  * Status permintaan (Menunggu, Diproses, Selesai)
+  * Informasi nama pelanggan
+  * Nomor telpon pelanggan
+  * Jenis layanan yang di pilih
+  * Metode pembayaran
+  * Status pembayaran (lunas atau belum lunas)
+  * Nota teransaksi byang dikirim otomatis melalui   Whatsapp pelanggan.
 
 * **Storage:**
-  * Menyimpan nama barang di Google Sheets, seperti: nama barang yang mau di-restock, jumlah barang yang akan dibeli, nama kasir yang mengajukan, tanggal permintaan, status permintaan.
+  * Menyimpan data pelanggan , jenis layanan, dan pembayaran di Google Sheets.
 
 * **Control (Error Handling):**
-  * Memasukkan nama barang.
-  * Memasukkan jumlah barang harus berupa angka lebih dari 0.
-  * Memasukkan total biaya harus berupa angka.
-  * Sistem memeriksa kelengkapan data sebelum permintaan dikirim.
-  * Sistem memberikan pemberitahuan jika permintaan berhasil dicatat.
+  * memastikan nama pelanggan den nomor telpon tidak kosong
+  * membastikan nomor telpon di isi dengan format yang benar
+  * memastikan jumlah tabung yang di gunakan lebih dari 0
+  * memastikan jumlah layanan sudah dipilih
+  * sistem menghitung ulang total pembayaran berdasarkan jumlah tabung dan harga layanan,
 
 ---
 
@@ -80,28 +88,71 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 #### 5. PSEUDOCODE TERSTRUKTUR (INDEPENDEN TEKNOLOGI)
 Tuliskan kode semu terstruktur (pseudocode) untuk modul logika utama solusi Anda:
 
-```text
-ALGORITMA Pengiriman_pesan_Restock_Barang_Otomatis
+text
+```
+ALGORITMA Pengiriman_Nota_Laundry_Que
 
-KAMUS DATA: 
-   Nama_barang, nama_karyawan : STRING
-   Jumlah_barang, tanggal     : INTEGER
+KAMUS BAHASA
+    nama            : STRING
+    no_telepon      : STRING
+    pelanggan       : STRING
+    layanan         : STRING
+    pembayaran      : STRING
+    harga           : INTEGER
+    status_lunas    : BOOLEAN
 
 ALUR LOGIKA:
-   MULAI
-   INPUT stok_barang 
-   IF stok_barang >= 5 THEN
-       OUTPUT “Catat tanggal dan stock barang”
-   ELSE
-       INPUT nama_kasir, tanggal, nama_barang KE google_sheet
-       KIRIM_PESAN “Permintaan restock” KE Admin VIA WhatsApp
-       TERIMA_PESAN “Permintaan dari kasir” OLEH Admin
-       SETUJUI_PERMINTAAN Oleh Admin
-       SERAHKAN_UANG(Admin ke Kasir)
-       BELI_BARANG_RESTOCK OLEH Kasir
-   ENDIF
-   SELESAI
-```
+  MULAI
+  INPUT nama, no_telepon
+
+CEK DATABASE PELANGGAN
+
+  IF pelanggan ditemukan THEN
+    OUTPUT "Pelanggan lama"
+
+  ELSE
+    MASUKKAN nama, no_telepon
+    MASUKKAN DATA KE DATABASE
+    
+ENDIF
+
+  OUTPUT "Pilih jenis layanan"
+  OUTPUT "1. Cuci kering Rp20.000"
+  OUTPUT "2. Cuci Rp10.000"
+  OUTPUT "3. Kering Rp10.000"
+
+INPUT layanan
+
+IF layanan = 1 THEN
+    harga = 20000
+ELIF layanan = 2 THEN
+    harga = 10000
+ELIF layanan = 3 THEN
+    harga = 10000
+ELSE
+    OUTPUT "Pilihan layanan tidak tersedia"
+ENDIF
+
+OUTPUT "Pilih pembayaran"
+OUTPUT "1. Cash"
+OUTPUT "2. QRIS"
+
+INPUT pembayaran
+
+IF pembayaran = "Cash" THEN
+    OUTPUT " KonfirmasiPembayaran Cash"
+    
+ELIF pembayaran = "QRIS" THEN
+    OUTPUT "Konfirmasi pembayaran QRIS"
+    status_lunas = TRUE
+ENDIF
+
+OUTPUT "Lunas"
+BUAT NOTA
+KIRIM NOTA KE WHATSAPP
+
+SELESAI
+
 
 ---
 
