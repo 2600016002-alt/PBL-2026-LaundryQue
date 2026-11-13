@@ -449,7 +449,6 @@ C. Tabel Pengesahan Anggota Tim beserta Tanda Tangan
 ### 3. Log Kontribusi Anggota
 | Anggota | Peran (Fase) | Kontribusi Utama | Minggu |
 |---|---|---|---|
-| Zaskia Azwa Mutmainah | Observe + Interview Setup (Memimpin WS01 & WS02) | M | M1 |
 
 ### 4. Peer Assessment
 | Anggota | Umpan Balik (be kind, be specific, be helpful) |
