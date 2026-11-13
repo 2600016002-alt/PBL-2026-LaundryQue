@@ -16,7 +16,7 @@
 #### 1. IDENTIFIKASI KELOMPOK & SOLUSI
 * **Nama Tim:** Tim Bugenvil
 * **Nama UMKM Mitra:** Laundry Que
-* **Judul Solusi SI:** pengiriman nota pelanggan otomatis 
+* **Judul Solusi SI:** Pengiriman Nota Pelanggan Otomatis 
 * **Phase Lead 4 (Design):** Lailatul Fitriyah
 
 ---
@@ -64,7 +64,7 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
   * Jenis layanan yang di pilih
   * Metode pembayaran
   * Status pembayaran (lunas atau belum lunas)
-  * Nota teransaksi byang dikirim otomatis melalui   Whatsapp pelanggan.
+  * Nota teransaksi yang dikirim otomatis melalui WhatsApp pelanggan.
 
 * **Storage:**
   * Menyimpan data pelanggan , jenis layanan, dan pembayaran di Google Sheets.
@@ -81,7 +81,7 @@ Petakan solusi Anda ke dalam 4 lapisan arsitektur terintegrasi:
 #### 4. DIAGRAM ALIR (FLOWCHART) LOGIKA PROGRAM
 *Petunjuk: Gambarkan diagram alir terstruktur menggunakan simbol standar (Persegi Panjang = Proses, Belah Ketupat = Keputusan IF-ELSE, Jajar Genjang = Input/Output, Oval = Start/End).*
 
-![Diagram Flowchart Restock Otomatis](image.png)
+![Diagram Flowchart Restock Otomatis]([image
 
 ---
 
